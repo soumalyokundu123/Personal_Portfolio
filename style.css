@@ -12,7 +12,7 @@
   
   body {
     font-family: 'MedievalSharp', cursive;
-    background: #1c1c1c url("https://w0.peakpx.com/wallpaper/140/43/HD-wallpaper-harry-potter-android-castle-drawing-harry-potter-hogwarts.jpg") repeat;
+    background: linear-gradient(45deg,#b3b346,#0a0a02,#0a0a02);
     color: #f0e6d2;
   }
   .home{
@@ -87,7 +87,10 @@
   .profile-width{
     max-width: 50%;
     font-size: 22px;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
   }
   .resume-btn{
     display: flex;
